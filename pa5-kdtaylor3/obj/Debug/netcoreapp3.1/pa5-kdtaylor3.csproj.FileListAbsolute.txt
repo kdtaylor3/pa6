@@ -1,0 +1,13 @@
+C:\Users\keila\Documents\source\repos\pa5-kdtaylor3\bin\Debug\netcoreapp3.1\pa5-kdtaylor3.exe
+C:\Users\keila\Documents\source\repos\pa5-kdtaylor3\bin\Debug\netcoreapp3.1\pa5-kdtaylor3.deps.json
+C:\Users\keila\Documents\source\repos\pa5-kdtaylor3\bin\Debug\netcoreapp3.1\pa5-kdtaylor3.runtimeconfig.json
+C:\Users\keila\Documents\source\repos\pa5-kdtaylor3\bin\Debug\netcoreapp3.1\pa5-kdtaylor3.runtimeconfig.dev.json
+C:\Users\keila\Documents\source\repos\pa5-kdtaylor3\bin\Debug\netcoreapp3.1\pa5-kdtaylor3.dll
+C:\Users\keila\Documents\source\repos\pa5-kdtaylor3\bin\Debug\netcoreapp3.1\pa5-kdtaylor3.pdb
+C:\Users\keila\Documents\source\repos\pa5-kdtaylor3\obj\Debug\netcoreapp3.1\pa5-kdtaylor3.csprojAssemblyReference.cache
+C:\Users\keila\Documents\source\repos\pa5-kdtaylor3\obj\Debug\netcoreapp3.1\pa5-kdtaylor3.AssemblyInfoInputs.cache
+C:\Users\keila\Documents\source\repos\pa5-kdtaylor3\obj\Debug\netcoreapp3.1\pa5-kdtaylor3.AssemblyInfo.cs
+C:\Users\keila\Documents\source\repos\pa5-kdtaylor3\obj\Debug\netcoreapp3.1\pa5-kdtaylor3.csproj.CoreCompileInputs.cache
+C:\Users\keila\Documents\source\repos\pa5-kdtaylor3\obj\Debug\netcoreapp3.1\pa5-kdtaylor3.dll
+C:\Users\keila\Documents\source\repos\pa5-kdtaylor3\obj\Debug\netcoreapp3.1\pa5-kdtaylor3.pdb
+C:\Users\keila\Documents\source\repos\pa5-kdtaylor3\obj\Debug\netcoreapp3.1\pa5-kdtaylor3.genruntimeconfig.cache
