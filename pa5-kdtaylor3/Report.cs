@@ -9,7 +9,7 @@ namespace pa5_kdtaylor3
             // individual         
             //historical customer rental
              //Report method
-        public static void RunReports(Book[] myBook, Transaction[] transactions)
+        public static void RunReports(Book[] myBook, Transaction[] transactions, Transaction[] myArray)
         {
             //menu to do different options with the reports
             Console.WriteLine("Press 1 to view total rentals by month and by year");
@@ -34,7 +34,7 @@ namespace pa5_kdtaylor3
            
                 if (reportChoice == 1)
                 {
-                    
+                    SortTransactions( myArray);
                 }
                 else if (reportChoice == 2)
                 {
@@ -45,6 +45,80 @@ namespace pa5_kdtaylor3
                     historicalRental();
                 }
         }
+        public static void SortTransactions( Transaction[] myArray)
+        {
+            for (int i = 0; i < Transaction.GetCount()-1; i++)
+            {
+              int min = 1;
+
+              for (int j = i + 1; j < Transaction.GetCount(); j++)
+              {
+                  if (myArray[min].CompareTo(myArray[1])> 0)
+                  {
+                      min = j;
+                  }
+              }  
+            if (min !=1)
+            {
+                Swap(min, i, myArray);
+            }
+
+            }
+        } 
+         public static void Swap(int x, int y, Transaction[] transArray)
+        {
+            Transaction temp= transArray[x];
+            transArray[x]= transArray[y];
+            transArray[y]= temp;
+        }
+
+        public static void SortDateByMonth(Transaction[] myArray)
+        {
+            for (int i = 0; i < Transaction.GetCount()- 1; i++)
+            {
+              int min= i;
+              for (int j=i+ 1; j < Transaction.GetCount(); j++)
+              {
+                  if (myArray[min].GetMonth().CompareTo(myArray[j].GetMonth()) > 0)
+                  {
+                      min= j;
+                  }
+              }  
+            
+            if (min !=i)
+            {
+               Swap(min,i,myArray); 
+            }
+
+            }
+        }
+        public static void SortDateByYear(Transaction[] transArray)
+        {
+            for (int i = 0; i < Transaction.GetCount()- 1; i++)
+            {
+              int min= i;
+              for (int j=i+ 1; j < Transaction.GetCount(); j++)
+              {
+                  if (transArray[min].GetYear().CompareTo(transArray[j].GetYear()) > 0)
+                  {
+                      min= j;
+                  }
+              }  
+            
+            if (min !=i)
+            {
+               Swap(min,i,transArray); 
+            }
+
+            }
+        }
+         public static void Swap(int x, int y, Book[] bookArray)
+        {
+            Book temp= bookArray[x];
+            bookArray[x]= bookArray[y];
+            bookArray[y]= temp;
+        }
+
 
         //Individual Customer Rentals
         public static void findPreviousRentals(Transaction[] transactions)

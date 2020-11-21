@@ -12,6 +12,7 @@ namespace pa5_kdtaylor3
         private int rentalDate;
         private int returnDate;
         static private int count;
+    
 
         public Transaction()
         {
@@ -81,7 +82,30 @@ namespace pa5_kdtaylor3
             returnDate = tempReturnDate;
         }
 
+        public int CompareTo(Transaction myArray){
+            return ISBN.CompareTo(myArray.GetISBN());
+        }
 
+        public void SetMonth(int tempRentalDate)
+        {
+            rentalDate = tempRentalDate;
+        }
+
+        public int GetMonth()
+        {
+            return rentalDate;
+        }
+         public void SetYear(int tempRentalDate)
+        {
+            rentalDate = tempRentalDate;
+        }
+         public int GetYear()
+        {
+            return rentalDate;
+        }
+
+
+        
         public void SetValues(int tempRentalID, int tempISBN, string tempCustomerName, string tempCustomerEmail, int tempRentalDate, int tempReturnDate)
         {
             rentalID = tempRentalID;

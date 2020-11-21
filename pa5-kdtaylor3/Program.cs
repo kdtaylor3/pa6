@@ -25,6 +25,7 @@ namespace pa5_kdtaylor3
                 userChoice = Console.ReadLine();
                 Console.Clear();
 
+                Transaction[] myArray = null;
                 //switch
                 switch (userChoice)
                 {
@@ -55,7 +56,7 @@ namespace pa5_kdtaylor3
                         break;
 
                     case "6":
-                        Report.RunReports(myBook, myTransaction);
+                        Report.RunReports(myBook, myTransaction, myArray);
                         break;
 
                     case "7":
