@@ -1,0 +1,15 @@
+C:\Users\keila\source\repos\PA6\PA6\bin\Debug\PA6.exe.config
+C:\Users\keila\source\repos\PA6\PA6\bin\Debug\PA6.exe
+C:\Users\keila\source\repos\PA6\PA6\bin\Debug\PA6.pdb
+C:\Users\keila\source\repos\PA6\PA6\obj\Debug\PA6.csprojAssemblyReference.cache
+C:\Users\keila\source\repos\PA6\PA6\obj\Debug\PA6.FrmCWID.resources
+C:\Users\keila\source\repos\PA6\PA6\obj\Debug\PA6.Properties.Resources.resources
+C:\Users\keila\source\repos\PA6\PA6\obj\Debug\PA6.csproj.GenerateResource.cache
+C:\Users\keila\source\repos\PA6\PA6\obj\Debug\PA6.csproj.CoreCompileInputs.cache
+C:\Users\keila\source\repos\PA6\PA6\obj\Debug\PA6.exe
+C:\Users\keila\source\repos\PA6\PA6\obj\Debug\PA6.pdb
+C:\Users\keila\source\repos\PA6\PA6\obj\Debug\PA6.frmMain.resources
+C:\Users\keila\source\repos\PA6\PA6\bin\Debug\Newtonsoft.Json.dll
+C:\Users\keila\source\repos\PA6\PA6\bin\Debug\Newtonsoft.Json.xml
+C:\Users\keila\source\repos\PA6\PA6\obj\Debug\PA6.csproj.CopyComplete
+C:\Users\keila\source\repos\PA6\PA6\obj\Debug\PA6.frmEdit.resources
